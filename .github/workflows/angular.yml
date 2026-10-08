@@ -18,8 +18,8 @@ jobs:
       
       - name: Install Dependencies
         run: npm install
-        working-directory: Angular/sample-Angular
+        working-directory: Angular/sample-angular
         
       - name: Build Angular App
         run: npm run build
-        working-directory: Angular/sample-Angular
+        working-directory: Angular/sample-angular
