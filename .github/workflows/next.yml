@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: 22.x
           cache: 'npm'
+          cache-dependency-path: NextJS/next-sample/package-lock.json
 
       - name: Install Dependencies
         run: npm install
